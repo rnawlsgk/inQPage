@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap" rel="stylesheet">
+	<title>InQ</title>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/f93aec2c44.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<ul class="nav flex-column" id="nav">
+		<li class="nav-item">
+	    <a class="nav-link" href="#">마이페이지</a>
+	  </li>
+		<li class="nav-item dropdown">
+	    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">메뉴</a>
+	    <ul class="dropdown-menu">
+	      <li><a class="dropdown-item" href="#">공지사항</a></li>
+	      <li><a class="dropdown-item" href="#">다목적 게시판</a></li>
+	      <li><a class="dropdown-item" href="#">자료실</a></li>
+				<li><a class="dropdown-item" href="#">운영진</a></li>
+	    </ul>
+  	</li>
+		<li class="nav-item dropdown">
+	    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Areas</a>
+	    <ul class="dropdown-menu">
+	      <li><a class="dropdown-item" href="#">Android</a></li>
+	      <li><a class="dropdown-item" href="#">IOS</a></li>
+	      <li><a class="dropdown-item" href="#">WEB</a></li>
+				<li><a class="dropdown-item" href="#">인공지능</a></li>
+				<li><hr class="dropdown-divider"></li>
+				<li><a class="dropdown-item" href="#">무덤</a></li>
+	    </ul>
+  	</li>
+	</ul>
+	<a href="#"><i id="start_bar" class="fas fa-bars" onclick=control_nav();></i></a>
+	<header>
+		<div class="home">
+			<a href="#"><i class="fas fa-home"></i></a>
+		</div>
+		<ul class="top-menu">
+			<a href="#"><li>공지사항</li></a>
+			<a href="#"><li>다목적 게시판</li></a>
+			<a href="#"><li>자료실</li></a>
+			<a href="#"><li>운영진</li></a>
+		</ul>
+	</header>
+	<section>
+		<div class="logo">
+			<img src="InQ.png">
+		</div>
+		<div class="field">
+			<ul class="field_box">
+				<li>안드로이드</li>
+				<li>IOS</li>
+			</ul>
+			<ul class="field_box">
+				<li>웹</li>
+				<li>인공지능</li>
+			</ul>
+			<ul class="field_box">
+				<li>기타</li>
+				<li>무덤</li>
+			</ul>
+		</div>
+	</section>
+</body>
+<script src="script.js"></script>
+</html>
