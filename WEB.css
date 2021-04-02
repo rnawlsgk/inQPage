@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding :0;
+}
+body{
+  position: relative;
+}
+li{
+  list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+#start_bar{
+  color: black;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 30px;
+  display: none;
+}
+#nav{
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.5s;
+  width: 0;
+  background-color: gainsboro;
+}
+header{
+  display: flex;
+  height: 100px;
+  background-color: gray;
+  color: white;
+}
+header i{
+  color: orange;
+  font-size: 60px;
+  padding: 17px 0 0 50px;
+}
+.top-menu{
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 50px;
+}
+.top-menu a{
+  font-family: 'Black Han Sans', sans-serif;
+  font-size: 20px;
+  font-weight:  100;
+  margin-right: 60px;
+  text-decoration: none;
+  color: gold;
+}
+.area h1{
+  text-align: center;
+  padding: 12px 0;
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+.btn-group{
+  width: 100%;
+}
+.btn-group button{
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px 0;
+}
+.area_main{
+  height: 710px;
+  background-color: gainsboro;
+  padding: 20px 0;
+}
+.project-box{
+  width: 70%;
+  height: 110px;
+  padding: 36px 15px;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: white;
+}
+#loadmap{display: none;}
+@media only screen and (max-width: 760px){
+  #start_bar{display: block;}
+  .top-menu{display: none;}
+}
